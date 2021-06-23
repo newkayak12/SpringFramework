@@ -105,6 +105,31 @@
 					HttpRequest로 파라미터 처리하기				
 				</button>
 			</div>
+			<div class="list-group">
+				<button type="button" onclick="demo('demo2.do')"; class="list-group-item list-group-item-action">
+					@RequestParam을 이용해서 파라미터 처리하기				
+				</button>
+			</div>
+			<div class="list-group">
+				<button type="button" onclick="demo('demo3.do')"; class="list-group-item list-group-item-action">
+					Command(VO)객체를 이용해서 파라미터 처리하기				
+				</button>
+			</div>
+			<div class="list-group">
+				<button type="button" onclick="demo('demo4.do')"; class="list-group-item list-group-item-action">
+					Map 이용해서 파라미터 처리하기				
+				</button>
+			</div>
+			<div class="list-group">
+				<button type="button" onclick="demo('demo5.do')"; class="list-group-item list-group-item-action">
+					추가 데이터 가져오기(header, cookie 등!)			
+				</button>
+			</div>
+			<div class="list-group">
+				<button type="button" onclick="demo('insertdev.do')"; class="list-group-item list-group-item-action">
+					INSERT INTO DB	
+				</button>
+			</div>
 	</div>
 	
 			

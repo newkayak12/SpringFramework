@@ -6,9 +6,7 @@
 <c:set var = "path" value="${pageContext.request.contextPath }/" />  
 
 
-<!DOCTYPE html>
-<html>
-<head>
+
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<!-- jQuery library -->
@@ -21,10 +19,8 @@
 	<link rel ="stylesheet" href="${path }/resources/css/style.css" type="text/css" >	
 
 
-<meta charset="UTF-8">
-<title>HELLOSPRING</title>
-</head>
-<body>
+
+
 
 		
 		<jsp:include page="/WEB-INF/views/common/header.jsp">
@@ -38,5 +34,3 @@
 		<jsp:include page="/WEB-INF/views/common/footer.jsp"></jsp:include>
 		
 		
-</body>
-</html>

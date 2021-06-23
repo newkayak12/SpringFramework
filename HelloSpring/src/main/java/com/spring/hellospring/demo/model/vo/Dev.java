@@ -1,6 +1,5 @@
 package com.spring.hellospring.demo.model.vo;
 
-import org.springframework.stereotype.Component;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -18,5 +17,6 @@ public class Dev {
 	private String devName;
 	private int devAge;
 	private String devEmail, devGender;
-	private String[ ]devLang;
+	private String[] devLang;
+	
 }
