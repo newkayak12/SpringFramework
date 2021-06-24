@@ -61,15 +61,28 @@
 				<td>${i.devEmail }</td>
 				<td>${i.devGender }</td>
 				<td>
-					<c:forEach items="${i.devLang }" var="j">
-						${j },
+					<c:forEach items="${i.devLang }" var="j" varStatus="vs" >
+						${j }
+						
+						<c:if test="${!vs.last }">
+						,
+						</c:if>
 						
 					</c:forEach>
+				</td>
+				<td>
+					<input type="button" value="수정하기" onclick="fn_modi(${i.devNo})">
 				</td>
 			</tr>
 		</c:forEach>
 	</table>
 	
+	
+	<script>
+		const fn_modi=(i)=>{
+			
+		}
+	</script>
 
 
 	<jsp:include page="/WEB-INF/views/common/footer.jsp"></jsp:include>

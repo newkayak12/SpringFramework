@@ -3,13 +3,20 @@
 <mapper namespace="devmapper">
 	<insert id="insert" parameterType="dev">
 		insert into dev values(seq_dev_no.nextval, #{devName}, #{devAge}, #{devEmail}, #{devGender},  
-		<foreach collection="devLang" item="i" separator="," open="'" close="'">
+		<!-- <foreach collection="devLang" item="i" separator="," open="'" close="'">
 		 ${i}
-		 </foreach>)
+		 </foreach>) -->
+		 
+		 #{devLang, typeHandler=com.spring.hellospring.common.StringArrayTypeHandler})
 	</insert>
 	
 	
-	<select id="selectlists" resultType="dev">
+	<resultMap  type="com.spring.hellospring.demo.model.vo.Dev" id="devMap"> 
+	
+		<result column="devLang" property="devLang" typeHandler="com.spring.hellospring.common.StringArrayTypeHandler"/>
+	</resultMap>
+	<select id="selectlists" resultMap="devMap" >
 		select * from dev
+		
 	</select>	
 </mapper>

@@ -6,4 +6,5 @@
 		<typeAlias type="com.spring.hellospring.demo.model.vo.Dev" alias="dev"/>
 	</typeAliases>
 	
+	
 </configuration>

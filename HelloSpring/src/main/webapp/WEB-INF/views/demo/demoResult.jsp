@@ -61,7 +61,6 @@
 							<c:when test="${dev.devLang!=null }">
 								<c:forEach var="i" items="${dev.devLang }">
 									<p>${i }</p>
-								
 								</c:forEach>
 							</c:when>
 							
