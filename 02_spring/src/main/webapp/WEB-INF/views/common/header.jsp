@@ -96,7 +96,6 @@
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Popper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <!-- Latest compiled JavaScript -->
@@ -128,16 +127,15 @@
 						<li class="nav-item">
 							<a class="nav-link" href="">게시판</a>
 						</li>
-						<li class="nav-item">
+						<%-- <li class="nav-item">
 							<a class="nav-link" href="${path }/demo/demo.do">Demo</a>
 						</li>
-						
+						 --%>
 						
 						
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-							role="button" data-toggle="dropdown" aria-haspopup="true"
-							aria-expanded="false">
+							role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								demo
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -146,8 +144,24 @@
 							</div>
 							
 							
-							<a class="dropdown-item" href="${path }/demo/demo.do">Demo등록</a>
+							
+						</li>
+						
+						 
+						 
+						 <%-- <li class="dropdown">
+							<button  type="button" class="dropdown-toggle" id="navbarDropdown"
+							 data-toggle="dropdown">
+								demo
+							</button>
+							<div class="dropdown-menu" >
+								<a class="dropdown-item" href="${path }/demo/demo.do">Demo등록</a>
 								<a class="dropdown-item" href="${path }/demo/demoList.do">Demo목록</a>
+							</div>
+							
+							
+							<a class="dropdown-item" href="${path }/demo/demo.do">Demo등록</a>
+								<a class="dropdown-item" href="${path }/demo/demoList.do">Demo목록</a> --%>
 						</li>
 						
 						

@@ -5,6 +5,6 @@
 		insert into member values(#{userid}, #{password}, #{username}, #{gender}, #{age}, #{email}, #{phone}, #{address}, #{hobby, typeHandler=arrayhandler} ,default)
 	</insert>
 	<select id="login" resultType="member">
-		select * from member where userid=#{userid} and password=#{password}
+		select * from member where userid=#{userid}
 	</select>
 </mapper>

@@ -3,17 +3,46 @@
 <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
 
 	<!-- Appenders -->
+<!-- 			
+			 p는 레벨 info, log 등의 레벨
+			 c는 클래스
+			 c메시지
+			 n은 개행 
+ -->
 	<appender name="console" class="org.apache.log4j.ConsoleAppender">
 		<param name="Target" value="System.out" />
 		<layout class="org.apache.log4j.PatternLayout">
-			<param name="ConversionPattern" value="%-5p: %c - %m%n" />
-		</layout>
+			<param name="ConversionPattern" value="[%d{yyyy-MM-dd HH:mm:ss}] %-5p [%l]: - %m%n" />
+		</layout> 
+		
+		
+		<!-- <layout class="org.apache.log4j.SimpleLayout"/> -->
+		
+		
+		<!-- <layout class="org.apache.log4j.HTMLLayout"/> -->
+		
+		<!-- <layout class="org.apache.log4j.xml.XMLLayout"/> -->
 	</appender>
+	<appender name="fileLogger" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="file" value="/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/logs/spring.logs"/>
+		<param name="append" value="true"/>
+		<param name="dateParttern" value="'.'yyyy-MM-dd"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%d{yyyy-MM-dd HH:mm:ss}] %-5p [%l]: - %m%n" />
+		</layout> 
+	</appender>
+	
 	
 	<!-- Application Loggers -->
 	<logger name="com.kh.spring">
-		<level value="info" />
+		<level value="debug" />
 	</logger>
+	<!--
+		 level은 로그를 찍는 단계를 알려주는데
+		 debug > info > warn > error > fatal 
+		 info를 정하면 이 밑으로 나와요 (심각도)
+		 
+	-->
 	
 	<!-- 3rdparty Loggers -->
 	<logger name="org.springframework.core">
@@ -31,11 +60,13 @@
 	<logger name="org.springframework.web">
 		<level value="info" />
 	</logger>
+	<!-- root logger를 상속받아서 출력됨.. -->
 
 	<!-- Root Logger -->
 	<root>
 		<priority value="warn" />
 		<appender-ref ref="console" />
+		<appender-ref ref="fileLogger"/>
 	</root>
 	
 </log4j:configuration>

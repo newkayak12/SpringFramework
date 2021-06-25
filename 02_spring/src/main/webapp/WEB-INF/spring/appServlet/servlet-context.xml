@@ -23,7 +23,19 @@
 	
 	<context:component-scan base-package="com.kh.spring" />
 	
-	 
+	<!-- 인터셉터 등록  -->
+	 <interceptors>
+	 	<interceptor>
+	 		<mapping path="/member/*"/>
+	 		<exclude-mapping path="/member/memberlogin*"/>
+	 		<beans:bean id="logger" class="com.kh.spring.common.LoggerInterceptor" />
+	 	</interceptor>
+	 	
+	 	<interceptor>
+	 		<mapping path="/demo/*"/>
+	 		<beans:bean id="devinterceptor" class="com.kh.spring.common.DemoInterceptor"/>
+	 	</interceptor>
+	 </interceptors>
 	
 	
 </beans:beans>
