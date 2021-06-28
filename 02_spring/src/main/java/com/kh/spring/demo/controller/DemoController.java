@@ -37,7 +37,7 @@ public class DemoController  {
 // controller 객체의 메소드는 서블릿에서 doGet/dePost 메소드 역할을 한다.
 // 프론트에서 전송되는 데이터는 Controller 메소드에서 파라미터 값으로 받는다. 
 // 파라미터로 받을 수 있는 값
-/*		>
+/*		
  *  파라미터로 선언하면 자동으로 스프링이 대입해준다.
  *  
  *  

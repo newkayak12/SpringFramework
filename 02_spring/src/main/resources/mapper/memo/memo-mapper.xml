@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="memo">
+
+	<resultMap type="memo" id="memoMap">
+		<id column="memono" property="memoNo"/>
+		<result column="memo" property="memo"/>
+		<result column="password" property="password"/>
+		<result column="memodate" property="memoDate"/>
+	</resultMap>
+	<insert id="insertMemo" parameterType="memo" >
+	
+		insert into memo values(SEQ_MEMONO.nextval,#{memo},#{password},default )
+	</insert>
+	
+	
+	<select id="listMemo" resultMap="memoMap">
+		select * from memo
+	</select>
+	
+	<delete id="deleteMemo" parameterType="map">
+		delete from memo where memoNo=#{no}
+	</delete>
+	<select id="selectPw" resultType="string">
+		select password from memo where memoNo=#{no}
+	</select>
+</mapper>

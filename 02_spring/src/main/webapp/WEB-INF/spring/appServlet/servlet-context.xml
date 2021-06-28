@@ -35,6 +35,10 @@
 	 		<mapping path="/demo/*"/>
 	 		<beans:bean id="devinterceptor" class="com.kh.spring.common.DemoInterceptor"/>
 	 	</interceptor>
+	 	<interceptor>
+	 		<mapping path="/memo/*"/>
+	 		<beans:bean id="memointerceptor" class="com.kh.spring.common.DemoInterceptor"/>
+	 	</interceptor>
 	 </interceptors>
 	
 	

@@ -26,9 +26,10 @@ public class MemberController {
 	
 	@Autowired
 	private MemberServiceInterface service;
+//	암호화
 	@Autowired
 	private BCryptPasswordEncoder pwEncoder;
-
+	
 	@RequestMapping("/member/memberEnroll.do")
 	public String enrolldispatcher() {
 		return "member/enroll";

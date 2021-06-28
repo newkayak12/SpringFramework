@@ -1,0 +1,548 @@
+[2021-06-25 12:10:03] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 12:10:04] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)]: - Root WebApplicationContext initialized in 1521 ms
+[2021-06-25 12:10:04] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)]: - Initializing Servlet 'appServlet'
+[2021-06-25 12:10:07] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)]: - Completed initialization in 2433 ms
+[2021-06-25 12:11:30] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 12:11:36] DEBUG [com.kh.spring.member.controller.MemberController.login(MemberController.java:95)]: - 1234
+[2021-06-25 12:11:39] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 12:37:27] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 12:37:29] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)]: - Root WebApplicationContext initialized in 1492 ms
+[2021-06-25 12:37:29] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)]: - Initializing Servlet 'appServlet'
+[2021-06-25 12:37:31] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)]: - Completed initialization in 1738 ms
+[2021-06-25 12:37:40] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 12:37:47] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/demo/demo.do
+[2021-06-25 12:37:57] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:17)]: - ============== Start ===============
+[2021-06-25 12:37:57] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:18)]: - /spring/member/memberlogin.do
+[2021-06-25 12:37:57] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:19)]: - ------------------------------------
+[2021-06-25 12:37:57] DEBUG [com.kh.spring.member.controller.MemberController.login(MemberController.java:95)]: - 1234
+[2021-06-25 12:37:59] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 12:44:18] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 12:44:19] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)]: - Root WebApplicationContext initialized in 1282 ms
+[2021-06-25 12:44:19] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)]: - Initializing Servlet 'appServlet'
+[2021-06-25 12:44:21] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)]: - Completed initialization in 1412 ms
+[2021-06-25 12:44:21] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 12:44:28] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:18)]: - ============== Start ===============
+[2021-06-25 12:44:28] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:19)]: - /spring/member/memberlogin.do
+[2021-06-25 12:44:28] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:20)]: - ------------------------------------
+[2021-06-25 12:44:28] DEBUG [com.kh.spring.member.controller.MemberController.login(MemberController.java:95)]: - 1234
+[2021-06-25 12:44:29] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:32)]: - -----------view-------------
+[2021-06-25 12:44:29] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:33)]: - 		view로 응답하기 전
+[2021-06-25 12:44:29] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:34)]: - ----------------------------
+[2021-06-25 12:44:31] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 12:49:35] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 12:49:37] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)]: - Root WebApplicationContext initialized in 1565 ms
+[2021-06-25 12:49:37] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)]: - Initializing Servlet 'appServlet'
+[2021-06-25 12:49:39] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)]: - Completed initialization in 1781 ms
+[2021-06-25 12:50:34] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 12:50:35] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)]: - Root WebApplicationContext initialized in 1687 ms
+[2021-06-25 12:50:35] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)]: - Initializing Servlet 'appServlet'
+[2021-06-25 12:50:37] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)]: - Completed initialization in 1680 ms
+[2021-06-25 12:50:37] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:20)]: - ============== Start ===============
+[2021-06-25 12:50:37] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:21)]: - /spring/member/logout.do
+[2021-06-25 12:50:37] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:22)]: - ------------------------------------
+[2021-06-25 12:50:37] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:35)]: - -----------view-------------
+[2021-06-25 12:50:37] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:36)]: - 		view로 응답하기 전
+[2021-06-25 12:50:37] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:37)]: - 응답페이지 : redirect:/
+[2021-06-25 12:50:37] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:38)]: - 파라미터값 : {}
+[2021-06-25 12:50:37] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:39)]: - ----------------------------
+[2021-06-25 12:50:37] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 12:50:42] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:20)]: - ============== Start ===============
+[2021-06-25 12:50:42] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:21)]: - /spring/member/memberlogin.do
+[2021-06-25 12:50:42] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:22)]: - ------------------------------------
+[2021-06-25 12:50:43] DEBUG [com.kh.spring.member.controller.MemberController.login(MemberController.java:95)]: - 1234
+[2021-06-25 12:50:44] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:35)]: - -----------view-------------
+[2021-06-25 12:50:44] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:36)]: - 		view로 응답하기 전
+[2021-06-25 12:50:44] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:37)]: - 응답페이지 : common/message
+[2021-06-25 12:50:44] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:38)]: - 파라미터값 : {loginmember=Member(userid=12.47, password=$2a$10$Ranp0yXVqPN1GaeedjDV2ez3XwfTsIsqppMIOZLNoufMDXjF/05/q, username=김예쥔, gender=F, age=26, email=yj@naver.com, phone=01022222222, address=강남구, hobby=null, enrolldate=Fri Jun 25 09:45:17 KST 2021), msg=로그인성공, loc=index.jsp, org.springframework.validation.BindingResult.loginmember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[2021-06-25 12:50:44] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:39)]: - ----------------------------
+[2021-06-25 12:50:45] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 13:36:44] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 13:36:46] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)]: - Root WebApplicationContext initialized in 1605 ms
+[2021-06-25 13:36:46] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)]: - Initializing Servlet 'appServlet'
+[2021-06-25 13:36:48] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)]: - Completed initialization in 1903 ms
+[2021-06-25 13:36:48] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:19)]: - ============== Start ===============
+[2021-06-25 13:36:48] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:20)]: - /spring/member/logout.do
+[2021-06-25 13:36:48] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:21)]: - ------------------------------------
+[2021-06-25 13:36:48] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:37)]: - -----------view-------------
+[2021-06-25 13:36:48] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:38)]: -      view로 응답하기 전
+[2021-06-25 13:36:48] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:39)]: - 응답페이지 : redirect:/
+[2021-06-25 13:36:48] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:40)]: - 파라미터값 : {}
+[2021-06-25 13:36:48] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:41)]: - ----------------------------
+[2021-06-25 13:36:48] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 13:36:53] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:19)]: - ============== Start ===============
+[2021-06-25 13:36:53] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:20)]: - /spring/member/memberlogin.do
+[2021-06-25 13:36:53] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:21)]: - ------------------------------------
+[2021-06-25 13:36:53] DEBUG [com.kh.spring.member.controller.MemberController.login(MemberController.java:95)]: - 1234
+[2021-06-25 13:36:55] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:37)]: - -----------view-------------
+[2021-06-25 13:36:55] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:38)]: -      view로 응답하기 전
+[2021-06-25 13:36:55] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:39)]: - 응답페이지 : common/message
+[2021-06-25 13:36:55] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:40)]: - 파라미터값 : {loginmember=Member(userid=12.47, password=$2a$10$Ranp0yXVqPN1GaeedjDV2ez3XwfTsIsqppMIOZLNoufMDXjF/05/q, username=김예쥔, gender=F, age=26, email=yj@naver.com, phone=01022222222, address=강남구, hobby=null, enrolldate=Fri Jun 25 09:45:17 KST 2021), msg=로그인성공, loc=index.jsp, org.springframework.validation.BindingResult.loginmember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[2021-06-25 13:36:55] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:41)]: - ----------------------------
+[2021-06-25 13:37:50] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 13:37:51] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)]: - Root WebApplicationContext initialized in 1628 ms
+[2021-06-25 13:37:52] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)]: - Initializing Servlet 'appServlet'
+[2021-06-25 13:37:53] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)]: - Completed initialization in 1580 ms
+[2021-06-25 13:37:53] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 13:37:58] DEBUG [com.kh.spring.member.controller.MemberController.login(MemberController.java:95)]: - 1234
+[2021-06-25 13:38:01] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 13:38:33] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:19)]: - ============== Start ===============
+[2021-06-25 13:38:33] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:20)]: - /spring/member/logout.do
+[2021-06-25 13:38:33] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:21)]: - ------------------------------------
+[2021-06-25 13:38:33] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:37)]: - -----------view-------------
+[2021-06-25 13:38:33] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:38)]: -      view로 응답하기 전
+[2021-06-25 13:38:33] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:39)]: - 응답페이지 : redirect:/
+[2021-06-25 13:38:33] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:40)]: - 파라미터값 : {loginmember=Member(userid=12.47, password=$2a$10$Ranp0yXVqPN1GaeedjDV2ez3XwfTsIsqppMIOZLNoufMDXjF/05/q, username=김예쥔, gender=F, age=26, email=yj@naver.com, phone=01022222222, address=강남구, hobby=null, enrolldate=Fri Jun 25 09:45:17 KST 2021), org.springframework.validation.BindingResult.loginmember=org.springframework.validation.BeanPropertyBindingResult: 0 errors}
+[2021-06-25 13:38:33] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:41)]: - ----------------------------
+[2021-06-25 13:38:33] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 13:45:06] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 13:45:08] WARN  [org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:558)]: - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFacotryBean' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'dev'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+[2021-06-25 13:45:08] ERROR [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:313)]: - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFacotryBean' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'dev'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$108/0x00000000629a5c20.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:860)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4705)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5168)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+Caused by: org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'dev'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:500)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 22 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'dev'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:121)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:99)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:494)
+	... 25 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'dev'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.typeAliasesElement(XMLConfigBuilder.java:171)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:109)
+	... 27 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.typeAliasesElement(XMLConfigBuilder.java:164)
+	... 28 more
+[2021-06-25 13:45:24] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 13:45:26] WARN  [org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:558)]: - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFacotryBean' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'dev'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+[2021-06-25 13:45:26] ERROR [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:313)]: - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFacotryBean' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'dev'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$108/0x000000007d17bc20.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:860)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4705)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5168)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+Caused by: org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'dev'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:500)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 22 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'dev'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:121)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:99)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:494)
+	... 25 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'dev'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.typeAliasesElement(XMLConfigBuilder.java:171)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:109)
+	... 27 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.typeAliasesElement(XMLConfigBuilder.java:164)
+	... 28 more
+[2021-06-25 13:47:01] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 13:47:02] WARN  [org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:558)]: - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFacotryBean' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'dev'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+[2021-06-25 13:47:02] ERROR [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:313)]: - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFacotryBean' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'dev'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$108/0x00000000991b3820.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:860)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4705)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5168)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+Caused by: org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [mybatis-config.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'dev'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:500)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 22 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'dev'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:121)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:99)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:494)
+	... 25 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error registering typeAlias for 'dev'. Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.typeAliasesElement(XMLConfigBuilder.java:171)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:109)
+	... 27 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.typeAliasesElement(XMLConfigBuilder.java:164)
+	... 28 more
+[2021-06-25 13:48:57] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 13:48:59] WARN  [org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:558)]: - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFacotryBean' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.demo.model.vo.Dev'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+[2021-06-25 13:48:59] ERROR [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:313)]: - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFacotryBean' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.demo.model.vo.Dev'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$108/0x0000000016285220.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:860)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4705)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5168)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.demo.model.vo.Dev'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 22 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.demo.model.vo.Dev'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521)
+	... 25 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.demo.model.vo.Dev'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:265)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 27 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.demo.model.vo.Dev'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 31 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 33 more
+[2021-06-25 13:50:26] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 13:50:28] WARN  [org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:558)]: - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFacotryBean' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.demo.model.vo.Dev'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+[2021-06-25 13:50:28] ERROR [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:313)]: - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFacotryBean' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.demo.model.vo.Dev'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$108/0x00000000fc978420.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:860)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4705)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5168)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.demo.model.vo.Dev'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 22 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.demo.model.vo.Dev'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521)
+	... 25 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.demo.model.vo.Dev'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:265)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 27 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.demo.model.vo.Dev'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 31 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.demo.model.vo.Dev
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 33 more
+[2021-06-25 13:51:05] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 13:51:06] WARN  [org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:558)]: - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFacotryBean' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.common.StringArrayTypeHandler'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.common.StringArrayTypeHandler
+[2021-06-25 13:51:06] ERROR [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:313)]: - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFacotryBean' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.common.StringArrayTypeHandler'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.common.StringArrayTypeHandler
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$108/0x0000000096188e20.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:860)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4705)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5168)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.common.StringArrayTypeHandler'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.common.StringArrayTypeHandler
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 22 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.common.StringArrayTypeHandler'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.common.StringArrayTypeHandler
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521)
+	... 25 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.common.StringArrayTypeHandler'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.common.StringArrayTypeHandler
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildResultMappingFromContext(XMLMapperBuilder.java:381)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:280)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:252)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:244)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:116)
+	... 27 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.common.StringArrayTypeHandler'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.common.StringArrayTypeHandler
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 32 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.common.StringArrayTypeHandler
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 34 more
+[2021-06-25 13:52:13] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 13:52:14] WARN  [org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:558)]: - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFacotryBean' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.common.StringArrayTypeHandler'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.common.StringArrayTypeHandler
+[2021-06-25 13:52:14] ERROR [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:313)]: - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFacotryBean' defined in ServletContext resource [/WEB-INF/spring/root-context.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.common.StringArrayTypeHandler'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.common.StringArrayTypeHandler
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$108/0x00000000bd211020.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:860)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4705)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5168)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1412)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1402)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:836)
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.common.StringArrayTypeHandler'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.common.StringArrayTypeHandler
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:523)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 22 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [/Users/sanghyeonkim/Downloads/Dev/SpringFramwork/02_spring/target/classes/mapper/dev/dev-mapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.common.StringArrayTypeHandler'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.common.StringArrayTypeHandler
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:92)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:521)
+	... 25 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.common.StringArrayTypeHandler'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.common.StringArrayTypeHandler
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.BaseBuilder.resolveTypeHandler(BaseBuilder.java:126)
+	at org.apache.ibatis.builder.SqlSourceBuilder$ParameterMappingTokenHandler.buildParameterMapping(SqlSourceBuilder.java:121)
+	at org.apache.ibatis.builder.SqlSourceBuilder$ParameterMappingTokenHandler.handleToken(SqlSourceBuilder.java:67)
+	at org.apache.ibatis.parsing.GenericTokenParser.parse(GenericTokenParser.java:78)
+	at org.apache.ibatis.builder.SqlSourceBuilder.parse(SqlSourceBuilder.java:45)
+	at org.apache.ibatis.scripting.defaults.RawSqlSource.<init>(RawSqlSource.java:46)
+	at org.apache.ibatis.scripting.defaults.RawSqlSource.<init>(RawSqlSource.java:40)
+	at org.apache.ibatis.scripting.xmltags.XMLScriptBuilder.parseScriptNode(XMLScriptBuilder.java:72)
+	at org.apache.ibatis.scripting.xmltags.XMLLanguageDriver.createSqlSource(XMLLanguageDriver.java:44)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:94)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:135)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:118)
+	... 27 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spring.hellospring.common.StringArrayTypeHandler'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.common.StringArrayTypeHandler
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 40 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.spring.hellospring.common.StringArrayTypeHandler
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 42 more
+[2021-06-25 13:53:23] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 13:53:24] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)]: - Root WebApplicationContext initialized in 1557 ms
+[2021-06-25 13:53:24] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)]: - Initializing Servlet 'appServlet'
+[2021-06-25 13:53:26] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)]: - Completed initialization in 1856 ms
+[2021-06-25 13:53:34] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 13:53:37] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 13:53:40] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:01:08] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 14:01:09] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)]: - Root WebApplicationContext initialized in 1569 ms
+[2021-06-25 14:01:10] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)]: - Initializing Servlet 'appServlet'
+[2021-06-25 14:01:12] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)]: - Completed initialization in 1970 ms
+[2021-06-25 14:01:19] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:05:06] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 14:05:07] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)]: - Root WebApplicationContext initialized in 1409 ms
+[2021-06-25 14:05:07] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)]: - Initializing Servlet 'appServlet'
+[2021-06-25 14:05:09] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)]: - Completed initialization in 1789 ms
+[2021-06-25 14:05:15] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 14:05:16] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)]: - Root WebApplicationContext initialized in 1508 ms
+[2021-06-25 14:05:16] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)]: - Initializing Servlet 'appServlet'
+[2021-06-25 14:05:18] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)]: - Completed initialization in 1774 ms
+[2021-06-25 14:05:38] DEBUG [com.kh.spring.common.DemoInterceptor.preHandle(DemoInterceptor.java:19)]: - 
+[2021-06-25 14:05:40] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:06:56] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 14:06:57] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)]: - Root WebApplicationContext initialized in 1567 ms
+[2021-06-25 14:06:57] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)]: - Initializing Servlet 'appServlet'
+[2021-06-25 14:06:59] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)]: - Completed initialization in 1810 ms
+[2021-06-25 14:07:02] DEBUG [com.kh.spring.common.DemoInterceptor.preHandle(DemoInterceptor.java:22)]: - check:null
+[2021-06-25 14:07:03] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:07:18] DEBUG [com.kh.spring.member.controller.MemberController.login(MemberController.java:95)]: - 1234
+[2021-06-25 14:07:21] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:07:22] DEBUG [com.kh.spring.common.DemoInterceptor.preHandle(DemoInterceptor.java:22)]: - check:Member(userid=12.47, password=$2a$10$Ranp0yXVqPN1GaeedjDV2ez3XwfTsIsqppMIOZLNoufMDXjF/05/q, username=김예쥔, gender=F, age=26, email=yj@naver.com, phone=01022222222, address=강남구, hobby=null, enrolldate=Fri Jun 25 09:45:17 KST 2021)
+[2021-06-25 14:07:22] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:09:22] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 14:09:24] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)]: - Root WebApplicationContext initialized in 1508 ms
+[2021-06-25 14:09:24] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)]: - Initializing Servlet 'appServlet'
+[2021-06-25 14:09:25] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)]: - Completed initialization in 1795 ms
+[2021-06-25 14:09:28] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:19)]: - ============== Start ===============
+[2021-06-25 14:09:28] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:20)]: - /spring/member/logout.do
+[2021-06-25 14:09:28] DEBUG [com.kh.spring.common.LoggerInterceptor.preHandle(LoggerInterceptor.java:21)]: - ------------------------------------
+[2021-06-25 14:09:28] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:37)]: - -----------view-------------
+[2021-06-25 14:09:28] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:38)]: -      view로 응답하기 전
+[2021-06-25 14:09:28] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:39)]: - 응답페이지 : redirect:/
+[2021-06-25 14:09:28] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:40)]: - 파라미터값 : {}
+[2021-06-25 14:09:28] DEBUG [com.kh.spring.common.LoggerInterceptor.postHandle(LoggerInterceptor.java:41)]: - ----------------------------
+[2021-06-25 14:09:28] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:09:29] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:09:52] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 14:09:53] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)]: - Root WebApplicationContext initialized in 1549 ms
+[2021-06-25 14:09:53] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)]: - Initializing Servlet 'appServlet'
+[2021-06-25 14:09:55] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)]: - Completed initialization in 1873 ms
+[2021-06-25 14:09:58] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:10:01] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:10:06] DEBUG [com.kh.spring.member.controller.MemberController.login(MemberController.java:95)]: - 1234
+[2021-06-25 14:10:08] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:10:08] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:10:09] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:14:13] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:19:32] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:19:40] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:20:05] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:20:31] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:20:39] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:21:22] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:27:42] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 14:27:43] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)]: - Root WebApplicationContext initialized in 1641 ms
+[2021-06-25 14:27:44] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)]: - Initializing Servlet 'appServlet'
+[2021-06-25 14:27:46] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)]: - Completed initialization in 2084 ms
+[2021-06-25 14:27:48] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:28:54] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 14:29:05] WARN  [org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1251)]: - No mapping for GET /spring/resource/css/style.css
+[2021-06-25 16:11:06] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:271)]: - Root WebApplicationContext: initialization started
+[2021-06-25 16:11:07] INFO  [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:307)]: - Root WebApplicationContext initialized in 1658 ms
+[2021-06-25 16:11:08] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)]: - Initializing Servlet 'appServlet'
+[2021-06-25 16:11:09] INFO  [org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)]: - Completed initialization in 1944 ms

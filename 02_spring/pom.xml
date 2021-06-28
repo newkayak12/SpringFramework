@@ -176,7 +176,29 @@
 		    <artifactId>spring-security-config</artifactId>
 		    <version>${org.springframework-version}</version>
 		</dependency>
+		<!-- log4JDBC REMIX -->
+	<!-- https://mvnrepository.com/artifact/org.lazyluke/log4jdbc-remix -->
+		<dependency>
+		    <groupId>org.lazyluke</groupId>
+		    <artifactId>log4jdbc-remix</artifactId>
+		    <version>0.2.7</version>
+		</dependency>
+		<!-- AOP적용을 위한 aspectJweaver의존성 등록 -->
+		<!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+		<dependency>
+		    <groupId>org.aspectj</groupId>
+		    <artifactId>aspectjweaver</artifactId>
+		    <version>${org.aspectj-version}</version>
+		</dependency>
+
+		
+		
+		
 	</dependencies>
+	
+	
+	
+		
 	
     <build>
         <plugins>
