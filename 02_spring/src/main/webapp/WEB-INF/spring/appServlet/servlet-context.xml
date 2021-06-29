@@ -11,6 +11,7 @@
 	
 	<!-- Enables the Spring MVC @Controller programming model -->
 	<annotation-driven />
+	
 
 	<!-- Handles HTTP GET requests for /resources/** by efficiently serving up static resources in the ${webappRoot}/resources directory -->
 	<resources mapping="/resources/**" location="/resources/" />
@@ -36,9 +37,9 @@
 	 		<beans:bean id="devinterceptor" class="com.kh.spring.common.DemoInterceptor"/>
 	 	</interceptor>
 	 	<interceptor>
-	 		<mapping path="/memo/*"/>
+	 		<mapping path="/board/boardWrite.do"/>
 	 		<beans:bean id="memointerceptor" class="com.kh.spring.common.DemoInterceptor"/>
-	 	</interceptor>
+	 	</interceptor> 
 	 </interceptors>
 	
 	

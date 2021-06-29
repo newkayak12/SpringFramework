@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="board">
+
+	<!-- /*
+	 *  	"BOARDNO" NUMBER, 
+            "BOARDTITLE" VARCHAR2(50), 
+            "BOARDWRITER" VARCHAR2(15),
+            "BOARDCONTENT" VARCHAR2(2000), 
+            "BOARDDATE" DATE DEFAULT SYSDATE, 
+            "BOARDREADCOUNT" NUMBER DEFAULT 0, 
+	 * 
+	 * 
+	 */ -->
+	 
+	 <!--  ATTACHMENTNO NUMBER PRIMARY KEY,
+//      BOARDNO NUMBER NOT NULL,
+//      ORIGINALFILENAME VARCHAR2(255) NOT NULL,
+//      RENAMEDFILENAME VARCHAR2(255) NOT NULL,
+//      UPLOADDATE DATE DEFAULT SYSDATE,
+//      DOWNLOADCOUNT NUMBER DEFAULT 0,
+//      STATUS VARCHAR2(1) DEFAULT 'Y', -->
+<resultMap type="attachment" id="attachmentMap">
+	<id column="attachmentno" property="attachmentNo"/>
+	<result column="originalfilename" property="originalFileName"/>
+	<result column="renamedfilename" property="renamedFileName"/>
+	<result column="uploaddate" property="uploadDate"/>
+	<result column="downloadcount" property="downloadCount"/>
+	<result column="status" property="status"/>
+</resultMap>
+
+<resultMap type="board" id="boardMap">
+	<id column="boardno" property="boardNo" />
+	<result column="boardtitle" property="boardTitle"/>
+	<result column="boardwriter" property="boardWriter"/>
+	<result column="boardcontent" property="boardContent"/>
+	<result column="boarddate" property="date"/>
+	<result column="boardreadcount" property="boardReadCount"/>
+	
+	<!-- <association property="attachment" resultMap="attachmentMap"/> -->
+	<collection property="attachment" resultMap="attachmentMap"/>
+</resultMap>
+
+  <select id="boardlist" resultMap="boardMap">
+  	 select * from board  left join attachment  using(boardno) order by boarddate desc 
+  	
+  </select>
+  <select id="boardCount" resultType="_int">
+  		select count(*) from board
+  </select>
+  
+  <select id="boarddetail" resultMap="boardMap">
+  	select a.*,b.* from board a left join attachment b on a.boardno=b.boardno where a.boardno=#{boardNo}
+  </select>
+  
+  <update id="boardModify" parameterType="board" >
+  	update board set boardTitle=#{boardTitle}, boardContent=#{boardContent} where boardno=#{boardNo}
+  </update>
+</mapper>

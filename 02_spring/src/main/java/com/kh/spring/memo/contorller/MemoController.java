@@ -56,7 +56,6 @@ public class MemoController {
 				if(encoder.matches(pw, password)) {
 					int result = service.deleteMemo(Integer.parseInt(no));
 					model.addAttribute("msg", "삭제 성공");	
-					System.out.println("!!!!!!!!!");
 				} else {
 					model.addAttribute("msg", "삭제 실패");	
 				}

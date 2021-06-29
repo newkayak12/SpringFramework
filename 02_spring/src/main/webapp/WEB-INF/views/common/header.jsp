@@ -167,6 +167,9 @@
 						<li class="nav-item">
 							<a class="nav-link " href="${path }/memo/memo.do">메모</a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link " href="${path }/board/boardlist.do">게시판</a>
+						</li>
 						
 						
 						
