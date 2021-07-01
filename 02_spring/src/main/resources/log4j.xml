@@ -53,7 +53,7 @@
 	
 	<!-- Application Loggers -->
 	<logger name="com.kh.spring">
-		<level value="debug" />
+		<level value="info" />
 	</logger>
 	<!--
 		 level은 로그를 찍는 단계를 알려주는데

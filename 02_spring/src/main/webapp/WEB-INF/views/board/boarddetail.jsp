@@ -35,8 +35,23 @@
     </div>
     
     <div id="button-container">
-    	 <button type="button" class="btn btn-outline-success btn-block" onclick="fn_modify()">수정하기</button>
-         <button type="button" class="btn btn-outline-danger btn-block"  onclick="${path}/board/boardlist.do">돌아가기</button>
+    
+    
+         <c:if test="${detail.attachment.size()>0 }">
+         	<c:forEach var ="a" items="${detail.attachment }" varStatus="vs">
+         		<button type="button" class="btn btn-outline-primary btn-block btn-sm"  onclick="location.assign('${path}/board/fileDownload.do?oriname=${a.originalFileName }&rename=${a.renamedFileName }')">
+         			<c:out value="첨부파일 : ${vs.count } - ${a.originalFileName }"/>
+         		</button>
+         		
+         	</c:forEach>	
+         </c:if>
+         
+         
+    	<c:if test="${loginmember.userid !=null && loginmember.userid==detail.boardWriter }">
+    		 <button type="button" class="btn btn-outline-success btn-block btn-sm" onclick="fn_modify()">수정하기</button>
+    	</c:if>
+         <button type="button" class="btn btn-outline-danger btn-block btn-sm"  onclick="location.assign('${path}/board/boardlist.do')">돌아가기</button>
+         
     </div>
 
      <style>

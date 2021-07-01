@@ -19,8 +19,14 @@
 	<link rel ="stylesheet" href="${path }/resources/css/style.css" type="text/css" >	
 
 
+<style>
 
-
+button#btn-add{
+	float:right; 
+	margin 0 0 15px;
+}
+/*  글쓰기 버튼에 대해서 style */
+</style>
 
 		
 		<jsp:include page="/WEB-INF/views/common/header.jsp">
@@ -30,7 +36,13 @@
 		<section id="board-container" class="container">
 		<div class="d-flex  justify-content-between">
       	  <p class="align-self-center">총 ${total }건의 게시물이 있습니다.</p>&nbsp;&nbsp;
-      	  <button type="button" class="btn btn-outline-success btn-block" style="width:20%" onclick="location.assign('${path}/board/boardWrite.do')">글쓰기</button>
+      	 
+      	 
+      	 <c:if test="${loginmember !=null }">
+      	 	 <button type="button" class="btn btn-outline-success btn-block" style="width:20%" onclick="location.assign('${path}/board/boardWrite.do')">글쓰기</button>
+      	 </c:if>
+      	  <!-- 글쓰기로 넘겨야 겠죠? 컨트롤러 가서 -->
+      	  
 		</div>
         
         <table id="tbl-board" class="table table-dark table-striped table-hover">
@@ -63,7 +75,7 @@
             			<td class="cols">
            			
             				<c:choose>
-	            				<c:when test="${i.attachment.originalFileName !=null}">
+	            				<c:when test="${i.attachment !=null && i.attachment[0].originalFileName!=null}">
 									<img alt="file" src="${path }/resources/images/file.png" width="25px">
 								</c:when>
 								<c:otherwise>

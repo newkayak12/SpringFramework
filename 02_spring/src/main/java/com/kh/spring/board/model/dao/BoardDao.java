@@ -3,9 +3,8 @@ package com.kh.spring.board.model.dao;
 import java.util.List;
 
 import org.mybatis.spring.SqlSessionTemplate;
-import org.springframework.stereotype.Repository;
-import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.kh.spring.board.model.vo.Attachment;
 import com.kh.spring.board.model.vo.Board;
 
 public interface BoardDao {
@@ -14,4 +13,6 @@ public interface BoardDao {
 	public int boardCount( SqlSessionTemplate session);
 	public Board boardDetail(SqlSessionTemplate session, int boardNo);
 	public int boardModify(SqlSessionTemplate session, Board board);
+	public int boardInsert(SqlSessionTemplate session, Board board);
+	public int attachmentInsert(SqlSessionTemplate session, Attachment attachment);
 }

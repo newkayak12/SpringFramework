@@ -1,13 +1,12 @@
 package com.kh.spring.board.model.dao;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import org.apache.ibatis.session.RowBounds;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.stereotype.Repository;
 
+import com.kh.spring.board.model.vo.Attachment;
 import com.kh.spring.board.model.vo.Board;
 @Repository
 public class BoardDaoImpl implements BoardDao {
@@ -28,6 +27,7 @@ public class BoardDaoImpl implements BoardDao {
 	@Override
 	public Board boardDetail(SqlSessionTemplate session,int boardNo) {
 		// TODO Auto-generated method stub
+		session.update("board.readcount", boardNo);
 		return session.selectOne("board.boarddetail", boardNo);
 	}
 
@@ -36,5 +36,22 @@ public class BoardDaoImpl implements BoardDao {
 		// TODO Auto-generated method stub
 		return session.update("board.boardModify",board);
 	}
+
+	@Override
+	public int boardInsert(SqlSessionTemplate session, Board board) {
+		// TODO Auto-generated method stub
+		int bo=	session.insert("board.boardInsert", board);
+		
+			
+			
+		return bo;
+	}
+
+	@Override
+	public int attachmentInsert(SqlSessionTemplate session, Attachment attachment) {
+		// TODO Auto-generated method stub
+		return session.insert("board.boardAttach", attachment);
+	}
+
 
 }

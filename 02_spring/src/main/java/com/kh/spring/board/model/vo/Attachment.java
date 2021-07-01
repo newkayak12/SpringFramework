@@ -25,7 +25,7 @@ public class Attachment {
 //      STATUS VARCHAR2(1) DEFAULT 'Y',
 	
 	
-	private int attachmentNo;
+	private int attachmentNo, boardNo;
 	private String originalFileName, renamedFileName;
 	private Date uploadDate;
 	private int downloadCount;

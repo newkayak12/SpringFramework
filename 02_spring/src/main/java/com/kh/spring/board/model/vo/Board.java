@@ -1,6 +1,8 @@
 package com.kh.spring.board.model.vo;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 import org.springframework.stereotype.Component;
 
@@ -30,6 +32,6 @@ public class Board {
 	private String boardTitle, boardWriter, boardContent;
 	private Date date;
 	private int boardReadCount;
-	private Attachment attachment;
+	private List<Attachment> attachment = new ArrayList();;
 	
 }

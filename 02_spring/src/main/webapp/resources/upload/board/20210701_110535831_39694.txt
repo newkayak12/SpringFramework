@@ -1,0 +1,41 @@
+websocket으로 공유할 페이지 구성 -> js에서 socket객체를 이용해서 서버와 통신하는 페이지
+  1. WebSocket객체가 생성되야함. WebSocket(서버websocket주소를 작성)
+  2. WebSocket객체의 속성을 세팅
+     WebSocket.onopen=e=>{로직 } : 소켓객체를 생성하면 바로 서버와 연결, 연결이 완료되면 실행되는 함수
+     WebSocket.onmessage=e=>{ 로직 } : 웹소켓서버에서 sendText,sendObject매소드를 실행하면 응답되어 실행되는 함수
+     WebSocket.onclose=e=>{로직} :  웹소켓서버와 연결이 끊어지면 실행되는 함수
+     WebSocket.send() : 서버에 특정 데이터를 전송할때 실행하는 함수 
+       * send를 실행하면 웹소켓서버의 onMessage로 등록된 메소드가 실행
+
+웹소켓서버구성하기
+특정 클래스 매소드에 대해 어노테션으로 지정하여 구성함.
+웹소켓서버역할의 클래스를 등록
+@ServerEndpoint("주소")
+public class chattingServer{구현}
+
+//페이지보낸 데이터 처리하는 메소드 구현
+@onOpen
+public void 메소드명(Session session, EndpointConfig config){ 로직 } : 클라이언트페이지에서 접속요청을 하면 실행되는 매소드
+*페이지에서 new WebSocket()객체를 생성하면 연결요청을 하게 되는데 그때 실행이 됨.
+@onMessage
+public void 메소드명(Session session, String msg||Object msg){ 로직구성 } : 클라언트페이지에서 send(데이터);을 실행하면 실행되는 매소드
+* session : send를 실행한 클라이언트의 session값
+ String,Object  : send의 매개변수로 보낸 데이터를 받는 변수
+@onClose
+public void 메소드명(Session session, CloseReason reason){ } : 클라이언트가 접속을 종료했을때 실행되는 메소드
+
+웹소켓을 실시간으로 이용할때는 session관리, Message핸들링을 잘해야함.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

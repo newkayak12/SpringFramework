@@ -56,4 +56,24 @@
   <update id="boardModify" parameterType="board" >
   	update board set boardTitle=#{boardTitle}, boardContent=#{boardContent} where boardno=#{boardNo}
   </update>
+  
+  <insert id="boardInsert" parameterType="board">
+  		insert into board values(seq_boardno.nextval, #{boardTitle}, #{boardWriter}, #{boardContent}, default, default)
+  		<!-- 실행하고 특정한 값을 빼내고 싶으면,,,, selectKey태그 -->
+  		
+  		<selectKey keyProperty="boardNo" resultType="_int" order="AFTER">
+  			select seq_boardno.currval from dual
+  		</selectKey>
+  		
+  </insert>
+  
+  <insert id="boardAttach" parameterType="board">
+  		
+  			insert into attachment values(seq_attachmentno.nextval, #{boardNo}, #{originalFileName}, #{renamedFileName}, default, default, default)
+  </insert>
+  <update id="readcount" >
+  		update board set boardReadcount= boardreadcount+1 where boardno = #{boardNo}
+  </update>
+  
+  
 </mapper>
