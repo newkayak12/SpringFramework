@@ -36,8 +36,8 @@ public class LoggerInterceptor extends HandlerInterceptorAdapter{
 		
 		log.debug("-----------view-------------");
 		log.debug("     view로 응답하기 전");
-		log.debug("응답페이지 : {}",modelAndView.getViewName());
-		log.debug("파라미터값 : {}",modelAndView.getModelMap());
+//		log.debug("응답페이지 : {}",modelAndView.getViewName());
+//		log.debug("파라미터값 : {}",modelAndView.getModelMap());
 		log.debug("----------------------------");
 		
 		 

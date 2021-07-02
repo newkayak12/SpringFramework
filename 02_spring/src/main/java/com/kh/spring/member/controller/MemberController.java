@@ -1,5 +1,10 @@
 package com.kh.spring.member.controller;
 
+import java.io.Writer;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,9 +12,14 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
+import org.springframework.web.servlet.ModelAndView;
 
+import com.google.gson.Gson;
+import com.kh.spring.board.model.service.BoardService;
+import com.kh.spring.board.model.vo.Board;
 import com.kh.spring.member.model.service.MemberServiceInterface;
 import com.kh.spring.member.model.vo.Member;
 
@@ -18,11 +28,14 @@ import lombok.extern.slf4j.Slf4j;
 @Controller
 @SessionAttributes("loginmember")
 @Slf4j
+
+//@ResponsBody : 이 컨트롤러를 통으로 ajax로 쓸 수 있다. 
 public class MemberController {
 	
 	
 //	private Logger logger = LoggerFactory.getLogger(MemberController.class);
-	
+	@Autowired
+	private BoardService boardService;
 	
 	@Autowired
 	private MemberServiceInterface service;
@@ -139,5 +152,75 @@ public class MemberController {
 //		logout후에 redirect로 전송을 해야곘죠
 //		redirect:주소
 		return "redirect:/";
+	}
+	
+	
+	
+//	기본 ajax 응답하기!
+	@RequestMapping("/member/checkUserId.do")
+	public void checkUserId(String userId, Writer writer)  throws Exception{
+		log.info(userId);
+		Member m = new Member();
+		m.setUserid(userId);
+		m = service.login(m);
+		
+		
+		
+		
+//		writer.append(m!=null?"false":"true");
+//		writer
+		
+		new Gson().toJson(m,writer);
+//		Gson
+		
+	}
+	
+//		beanNameResolver로 실행시켜서 응답하는?
+//		JsonView를 통한 ajax 처리 == return 값은 무조건 ModelAndView 설
+	@RequestMapping("/member/checkIdJsonView.do")
+	public ModelAndView checkIdJsonView(ModelAndView mv, String userId) {
+		Member m = new Member();
+		m.setUserid(userId);
+		
+		m=service.login(m);
+		
+		mv.addObject("isAble", m!=null?false:true);
+		mv.addObject("su",20);
+		mv.addObject("name","김태희");
+		mv.addObject("spe", m);
+		
+		
+		//viewName 세팅시 등록한 JsonView의 이름으로 설정해야한다.
+		mv.setViewName("jsonView");
+//		얘가 <beans:bean id="jsonView" class="net.sf.json.spring.web.servlet.view.JsonView"/>를 찾아서 
+//		이 객체를 실행시킨다.
+		
+		return mv;
+	}
+	
+//	Ajax를 ResponseBody로 처리하기
+//	0.jackson databind 라이브러리를 받아온다. 
+//	1.beanConfiguration.xml에서 jackson클래스를 converter로 등록해준다. 
+//	2. 매핑된 메소드에 Responsebody 어노테이션 표시를 한다.
+//	3. 원하는 데이터를 return값으로 설정한다. 
+//	4. 끝 
+	@RequestMapping("/member/checkIdResponseBody.do")
+	@ResponseBody
+//	public Member responseBody(String userId) {
+//	public List<Board> responseBody(){
+	public HashMap responseBody(String userId) {
+		
+		HashMap test = new HashMap();
+		Member m = new Member();
+		test.put("m", m);
+//		m.setUserid(userId);
+		
+		List<Board> list = boardService.boardlist(1,20);
+		test.put("list", list);
+
+//		return service.login(m);
+		
+		return test;
+		
 	}
 }

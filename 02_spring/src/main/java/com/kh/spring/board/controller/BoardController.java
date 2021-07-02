@@ -181,7 +181,8 @@ public class BoardController {
 	
 	@RequestMapping("/board/fileDownload.do")
 	public void fileDownload(@RequestParam(value="oriname") String oriname, @RequestParam(value="rename") String rename, HttpServletResponse resp, HttpServletRequest rqst, @RequestHeader(value="user-agent") String header) {
-		
+//		input/output으로 해보기???
+//		
 		
 		String path = rqst.getServletContext().getRealPath("/resources/upload/board/");
 		File saveFile = new File(path+rename);
@@ -189,49 +190,50 @@ public class BoardController {
 		BufferedInputStream bis = null;
 		ServletOutputStream sos = null;
 		
-			try {
-				bis = new BufferedInputStream(new FileInputStream(saveFile));
-				sos = resp.getOutputStream();
-				boolean isMS = header.indexOf("Trident")!=-1||header.indexOf("MSIE")!=-1;
-				String encodeStr = "";
-				
-				
-					if(isMS) {
-						encodeStr = URLEncoder.encode(oriname,"UTF-8");
-						encodeStr = encodeStr.replaceAll("\\", "%20");
-						
-					} else {
-						
-						encodeStr = new String(oriname.getBytes("UTF-8"), "ISO-8859-1");
-						
-					}
+				try {
+							bis = new BufferedInputStream(new FileInputStream(saveFile));
+							sos = resp.getOutputStream();
+						boolean isMS = header.indexOf("Trident")!=-1||header.indexOf("MSIE")!=-1;
+						String encodeStr = "";
 					
-					resp.setContentType("application/octet-stream;charset=utf-8");
 					
-					resp.setHeader("Content-Disposition", "attachment;filename=\""+encodeStr+"\"");
-				
-					int read = -1;
-						while((read = bis.read()) !=-1) {
-							
-							sos.write(read);
-						}
-			} catch (FileNotFoundException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} finally {
-					try {
+								if(isMS) {
+									encodeStr = URLEncoder.encode(oriname,"UTF-8");
+									encodeStr = encodeStr.replaceAll("\\", "%20");
+									
+								} else {
+									
+									encodeStr = new String(oriname.getBytes("UTF-8"), "ISO-8859-1");
+									
+								}
 						
-							bis.close();
-							sos.close();
+							resp.setContentType("application/octet-stream;charset=utf-8");
 							
-					} catch (IOException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
-					}
-			}
+							resp.setHeader("Content-Disposition", "attachment;filename=\""+encodeStr+"\"");
+					
+						int read = -1;
+							while((read = bis.read()) !=-1) {
+								
+								sos.write(read);
+							}
+							
+				} catch (FileNotFoundException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} finally {
+							try {
+								
+										bis.close();
+										sos.close();
+									
+							} catch (IOException e) {
+								// TODO Auto-generated catch block
+								e.printStackTrace();
+							}
+				}
 		
 	}
 }

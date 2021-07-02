@@ -7,20 +7,31 @@
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <!-- jQuery library -->
+<script src="${path }/resources/js/jquery-3.6.0.min.js"></script>
 <!-- Popper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="${path }/resources/js/jquery-3.6.0.min.js"></script>
-<link rel="stylesheet" href="${path }/resource/css/style.css" type="text/css">
 
 		<style>
-		div#enroll-container{width:400px; margin:0 auto; text-align:center;}
-		div#enroll-container input, div#enroll-container select {margin-bottom:10px;}
+			div#enroll-container{width:400px; margin:0 auto; text-align:center;}
+			div#enroll-container input, div#enroll-container select {margin-bottom:10px;}
+			div#userid-container{position:relative;padding:0px}
+			div#userid-container span.guide{display:none; font-size:12px;position:absolute;top:12px;right:10px;}
+			div#userid-container span.ok{color:green;}
+			div#userid-container span.error{color:red;}
+			
 		</style>
 <div id="enroll-container">
 			<form name="memberEnrollFrm" action="${path }/member/memberenroll.fin" >
-				<input type="text" class="form-control" placeholder="아이디 (4글자이상)" name="userId" id="userId_" required>
+			
+				<div id="userid-container">
+					<input type="text" class="form-control" placeholder="아이디 (4글자이상)" name="userId" id="userId_" required>
+					<button type="button" onclick="fn_jsonView()" class="btn btn-outline-success">jsonview</button>&nbsp;&nbsp;
+					<button type="button" onclick="fn_responseBody()" class="btn btn-outline-success">responseBody</button>
+					<span class="guide ok">이 아이디는 사용이 가능합니다.</span>
+					<span class="guide error">이 아이디는 사용이 불가능합니다.</span>
+				</div>
 				<input type="password" class="form-control" placeholder="비밀번호" name="password" id="password_" required>
 				<input type="password" class="form-control" placeholder="비밀번호확인" id="password2" required>
 				<input type="text" class="form-control" placeholder="이름" name="userName" id="userName" required>
@@ -46,5 +57,79 @@
 				<input type="reset" class="btn btn-outline-success" value="취소">
 			</form>
 		</div>
+		
+		<script>
+			$("#userId_").keyup(e=>{
+				const userId= e.target.value.trim();
+				
+					if(userId.length<0){
+						alert('아이디를 입력하세요')
+						return
+					}else if(userId.length>=4){
+						 
+							$.get("${path}/member/checkUserId.do?userId="+userId, data=>{
+								console.log(data)
+								
+								/* if (data =='true'){
+									$(".error").css("display","none")
+									$(".ok").css("display","block")
+								} else{
+									
+									$(".ok").css("display","none")
+									$(".error").css("display","block")
+								} */
+								/*  writer로 그냥*/
+								
+								let member = JSON.parse(data);
+								if (member == null  ){
+									$(".error").css("display","none")
+									$(".ok").css("display","block")
+								} else{
+									$(".ok").css("display","none")
+									$(".error").css("display","block")
+								}
+								
+							})
+						
+						/* $ajax({
+							url:"${path}/member/checkUserId.do",
+							data:{"userId":userId},
+							success:data=>{
+								console.log(data);
+								
+							}
+						}) */
+						
+						
+					}
+				
+			})
+			
+			/*----------------------------  */
+			function fn_jsonView(){
+				$.get("${path}/member/checkIdJsonView.do?userId="+$("#userId_").val(), data=>{
+					console.log(data);
+						if (data["isAble"]){
+							$(".error").css("display","none")
+							$(".ok").css("display","block")
+						} else{
+							$(".ok").css("display","none")
+							$(".error").css("display","block")
+						}
+					
+				})
+				
+			}
+			
+			/* ---------------------------------- */
+			function fn_responseBody(){
+				$.get("${path}/member/checkIdResponseBody.do?userId="+$("#userId_").val(), data=>{
+					console.log(data);
+					
+					
+					
+				})/*get닫기  */
+			}
+		</script>
 		
 <jsp:include page="/WEB-INF/views/common/footer.jsp"/>
