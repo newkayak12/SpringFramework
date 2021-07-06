@@ -1,6 +1,7 @@
 package com.spring.hellospring.config;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScans;
 import org.springframework.context.annotation.Configuration;
 
 import com.spring.hellospring.model.vo.Department;
